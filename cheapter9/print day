@@ -6,7 +6,7 @@ void printf();
 
 int main(void)
 {
-	printf();
+        printf();
 }
 void printf()
 {
