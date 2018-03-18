@@ -1,0 +1,37 @@
+#include<stdio.h>
+#include<string.h>
+
+int power(int,int);
+
+int main(void)
+{
+	int x, exp;
+	printf("weclome\n");
+	while (scanf("%d%d", &x, &exp)==2)
+	{
+		printf("the power of number is %d.\n", power(x, exp));
+	}
+	
+}
+int power(int x, int exp)
+{
+	int power = 1;
+	if (x!=0)
+	{
+		for (int i = 1; i <= exp; i++)
+		{
+			power = power * x;
+		}
+		if (exp % 2 == 0 || x > 0)
+		{
+			return power;
+		}
+		else 
+		{
+			return (-1)*power ;
+		}
+	}
+	else 
+	{
+		return 1;
+	}
