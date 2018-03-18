@@ -9,6 +9,7 @@ int main(void)
 	printf("weclome\n");
 	while (scanf("%d%d", &x, &exp)==2)
 	{
+		printf("Enter a number and the integer power\n");
 		printf("the power of number is %d.\n", power(x, exp));
 	}
 	
