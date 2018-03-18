@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<string.h>
+
+const int month[20] = { 31,30,31,30,31,30,31,31,30,31,30,31,30,31 };
+void printf();
+
+int main(void)
+{
+	printf();
+}
+void printf()
+{
+	for (int i = 1; i <= 12; i++)
+	{
+		printf("The month of%d 's day is%d.\n", i, month[i]);
+	}
+}
