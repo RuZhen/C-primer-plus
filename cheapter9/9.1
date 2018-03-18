@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<string.h>
+
+double min(double, double);
+
+int main(void)
+{
+	double x, y;
+	printf("weclome");
+	while (scanf("%d%d", &x, &y)==2)
+	{
+		printf("the minist of two number is %f.\n",min(x,y));
+	}
+	
+}
+double min(double x, double y)
+{
+	if (x <= y)
+	{
+		return x;
+	}
+	else
+	{
+		return y;
+	}
+}
