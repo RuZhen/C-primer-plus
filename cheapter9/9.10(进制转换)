@@ -1,1 +1,28 @@
-/* Programming Exercise 9-10 */
+#include<stdio.h>
+#include<string.h>
+
+void to_base_n(int,int);
+int Remainder; //余数
+int n; //基数
+int base; //机制转换数
+int main(void)
+{
+	printf("weclome\n");
+	while (scanf("%d%d", &n, &base)==2)
+	{
+		 to_base_n(n, base);
+	}
+	
+}
+
+void to_base_n(int n , int base)
+{
+	Remainder = n % base;
+	putchar(Remainder);
+	if (n>=base)
+	{
+		to_base_n( n/base, base);
+	}
+
+	
+}/* Programming Exercise 9-10 */
