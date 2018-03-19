@@ -4,7 +4,7 @@
 void to_base_n(int,int);
 int Remainder; //余数
 int n; //基数
-int base; //机制转换数
+int base; //进制转换数
 int main(void)
 {
 	printf("weclome\n");
