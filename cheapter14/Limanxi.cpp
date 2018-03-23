@@ -20,17 +20,17 @@ int main(void)
 	struct guy classa[2] = {
 	   {
 		{"Chen,Zihan"},
-	"yuxiangrousi",
-	"coder",
-	"GTA",
-	 0
+	         "yuxiangrousi",
+	         "coder",
+	         "GTA",
+	          0
 	   },
 	   {
-			 { "Li,Manxi" },
-			 "肉",
-			 "student",
-			 "王者荣耀",
-			 10000000
+		{ "Li,Manxi" },
+		  "肉",
+		  "student",
+		  "王者荣耀",
+		  10000000
 	   }
 
 	};
@@ -44,3 +44,5 @@ int main(void)
 	printf("im is a %s\n", &she->job);
 
 }
+
+
