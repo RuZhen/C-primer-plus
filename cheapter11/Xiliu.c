@@ -1,3 +1,4 @@
+/*输出*/
 #include<stdio.h>
 #define MAXLEN 10
 
@@ -11,6 +12,6 @@ int main()
 	{
 		
 		fputs(word, stdout);
-	}
+	} //循环会连续输出一行超过长度限制的字符串
 	return 0;
 }
